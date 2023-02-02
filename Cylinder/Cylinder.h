@@ -11,7 +11,7 @@ public:
 
 	float getHeight();
 		Cylinder();
-		Cylinder(float r, float p, float a, float h);
+		Cylinder(float r, float h);
 
 
 };

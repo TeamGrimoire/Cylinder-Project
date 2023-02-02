@@ -1,23 +1,10 @@
 #include "Circle.h"
 #include "Cylinder.h"
 
-
-void Circle::setRadius(float r) {}
-void Circle::setPerimeter(float p) {}
-void Circle::setArea(float a) {}
-
-float Circle::getRadius() {
-    return radius;
-}
-float Circle::getPerimeter() {
-    return perimeter;
-}
-float Circle::getArea() {
-    return area;
-}
-
 int main()
 {
+
+	Cylinder obj(10, 5);
 	cout << "Cylinder app!" << endl;
 	cout << "------------" << endl;
 
